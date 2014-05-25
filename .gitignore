@@ -46,3 +46,7 @@ wlchotspot/db.sqlite3
 
 # Sphinx documentation
 docs/_build/
+
+#virtualenv
+include/python2.7
+local/
