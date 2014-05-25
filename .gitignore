@@ -6,7 +6,9 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.Python
 bin/
+env/
 build/
 develop-eggs/
 dist/
@@ -25,6 +27,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+htmlcov/
 .tox/
 .coverage
 .cache
@@ -33,20 +36,19 @@ coverage.xml
 
 # Translations
 *.mo
-
-local_settings.py
-
-# Rope
-.ropeproject
+*.pot
 
 # Django stuff:
 *.log
-*.pot
-wlchotspot/db.sqlite3
 
 # Sphinx documentation
 docs/_build/
 
+local_settings.py
+wlchotspot/db.sqlite3
+
 #virtualenv
 include/python2.7
 local/
+
+.DS_Store
