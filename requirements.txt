@@ -4,4 +4,4 @@ South==0.8.4
 distribute==0.6.24
 django-bootstrap3==4.6.0
 django-lineage==0.2.0
-gunicorn==18.0
+gunicorn==19.9.0
